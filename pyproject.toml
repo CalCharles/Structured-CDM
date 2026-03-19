@@ -23,7 +23,7 @@ dev = [
 ]
 
 [project.scripts]
-struct-sdfm-train = "struct_sdfm._cli:main"
+struct-sdfm-train = "struct_sdfm.train:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
